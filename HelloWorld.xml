@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--Reference: Xml Structure given in class by Mikhail found on https://github.com/mikhail-cct/CA1-In-class-Demo/PaddysCafe.xml-->
+<traveldestinations>
+  <section name="PopularDestinations">
+    <entree europe="true">
+      <item>A week in Prague (Flights departing from Dublin + Accomodation)</item>
+      <price>499.99</price>
+    </entree>
+    <entree>
+      <item>4 days trip to Paris (Flights departing from Dublin + Accomodation)</item>
+      <price>700.00</price>
+    </entree>
+    <entree>
+      <item>London in 5 days (Flights departing from Dublin + Accomodation)</item>
+      <price>659.00</price>
+    </entree>
+  </section>
+  <section name="OutsideEU">
+    <entree>
+      <item>Thailand in 2 weeks</item>
+      <price>1200.00</price>
+    </entree>
+    <entree>
+      <item>See the wonders of Ancient Egypt in 2 Weeks (All Inclusive - Flights departing from Dublin + Hotel)</item>
+      <price>999.99</price>
+    </entree>
+    <entree europe="true">
+      <item>5 days in Canary Islands - Gran Canaria</item>
+      <price>300.00</price>
+    </entree>
+    <entree europe="true">
+      <item>Visit the Romantic Venice for 3 nights (Only flights)</item>
+      <price>99.99</price>
+    </entree>
+    <entree>
+      <item>A week in Stambul (Flights + Accomodation)</item>
+      <price>699.99</price> 
+    </entree>
+  </section>
+  <section name="NewDestinations">
+    <entree>
+      <item>Tokio</item>
+      <price>1.400.00</price>
+    </entree>
+    <entree>
+      <item>Rio de Janeiro in 2 weeks (Hotel + Flights departing from Europe Mainland main cities)</item>
+      <price>1.599.99</price>
+    </entree>
+    <entree europe="true">
+      <item>6 nights in Malta (All Inclusive)</item>
+      <price>700.50</price>
+    </entree>
+  </section>
+  <section name="CulturalDestinations">
+    <entree>
+      <item>Athens, Greece + Greek Islands in 2 weeks - Mikonos, Santorini and Corfu (Only flights)</item>
+      <price>600.99</price>
+    </entree>
+    <entree>
+      <item>Isla de Pascua, Chile in 5 days (Flights departing from Europe Mainland cities + Accomodation)</item>
+      <price>1.900.99</price>
+    </entree
+    <entree europe="true">
+      <item>Visit the ancient Roman monuments in Rome, Italy (5 nights - Flights + Hotel)</item>
+      <price>499.79</price>
+    </entree>
+  </section>
+</traveldestinations>
