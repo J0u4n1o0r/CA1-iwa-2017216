@@ -1,19 +1,20 @@
 <?xml version="1.0"?>
+<!--Referencing: Xsl Structure given in class by Mikhail found on https://github.com/mikhail-cct/CA1-In-class-Demo/PaddysCafe.xsl-->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
-                <table id="menuTable" class="indent">
+                <table id="destinationsTable" class="indent">
                     <thead>
                         <tr>
-                            <th colspan="3">Paddy's Cafe Menu</th>
+                            <th colspan="3">Hello World - Destinations</th>
                         </tr>
                         <tr>
                             <th>Select</th>
-                            <th>Item</th>
+                            <th>Destination</th>
                             <th>Price</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <xsl:for-each select="/cafemenu/section">
+                        <xsl:for-each select="/traveldestinations/section">
                             <tr>
                                 <td colspan="3">
                                     <xsl:value-of select="@name" />
@@ -21,8 +22,8 @@
                             </tr>
                             <xsl:for-each select="entree">
                             <tr id="{position()}">
-                                <xsl:attribute name="vegetarian">
-                                    <xsl:value-of select="boolean(./@vegetarian)" />
+                                <xsl:attribute name="europe">
+                                    <xsl:value-of select="boolean(./@europe)" />
                                 </xsl:attribute>
                                 <td align="center">
                                     <input name="item0" type="checkbox" />
